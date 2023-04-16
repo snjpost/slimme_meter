@@ -104,5 +104,5 @@ while True:
         print('error')
         ser.close()
         client1.publish("smart_meter/error", "an error occured, please restart")
-        os.system("python /home/pi/slimme_meter/slimme_meter_uitlezen_1.4.py")
+        os.system("python /home/pi/slimme_meter/slimme_meter_uitlezen.py")
 
